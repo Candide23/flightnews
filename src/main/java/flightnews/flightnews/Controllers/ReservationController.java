@@ -44,7 +44,7 @@ public class ReservationController {
 
     @RequestMapping("/flights")
     public List<Flight> findFlights(@RequestParam(name = "from",required = false) String from,@RequestParam(name = "to", required = false) String to,
-                                    @RequestParam(name = "departureDate", required = false) @DateTimeFormat(pattern="MM-dd-yyyy") Date departureDate) {
+                                    @RequestParam(name = "departureDate", required = false) @DateTimeFormat(pattern="yyyy-MM-dd") Date departureDate) {
         return flightRepository.findFlights(from, to, departureDate);
     }
 
