@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import './styles.css';
 import { Link } from "react-router-dom";
 
 
@@ -33,7 +34,7 @@ function DisplayFlights() {
 // So we want to render this onmy when flight data has already been feched from backend
     return(
 
-        <div>
+        <div className="display">
 
             <h2>Flights:</h2>
             <table>

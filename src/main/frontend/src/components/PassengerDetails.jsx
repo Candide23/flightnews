@@ -1,8 +1,7 @@
-
-
 import React, { useEffect, useState } from "react";
 import {  useParams } from "react-router-dom";
 import axios from "axios";
+import './styles.css';
 import {useNavigate} from "react-router-dom"
 
 
@@ -52,7 +51,7 @@ function PassengerDetails() {
 
     return(
 
-        <div>
+        <div className="Confirmation">
             <h2>Confirm Reservation:</h2>
             <h2>Flight Details:</h2>
             Airline: {!isLoading?data.companyName:""}<br/>
