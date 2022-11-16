@@ -12,10 +12,15 @@ FlightNews is a flight reservation application which will allow the enduser to f
 🚀 Technologies
 
 .Java
+
 .JavaScript
+
 .SpringBoot
+
 .ReactJs
+
 .RESTApi
+
 .MySQL
 
 📘 How To Use
