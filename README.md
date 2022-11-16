@@ -20,7 +20,7 @@ FlightNews is a flight reservation application which will allow the enduser to f
 
 .ReactJs
 
-.RESTApi
+.RESTful API
 
 .MySQL
 
