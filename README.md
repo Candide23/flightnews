@@ -1,4 +1,5 @@
 # flightNews
+
 FlightNews is a flight reservation application which will allow the enduser to find flights and then book a flight or create a reservation
 
 ![Screenshot 2022-11-16 at 08 52 46](https://user-images.githubusercontent.com/89795037/202213699-4c3ca96b-9bcb-44d0-b5ea-e6e4f5dd5d82.png)
@@ -26,5 +27,7 @@ FlightNews is a flight reservation application which will allow the enduser to f
 📘 How To Use
 
 .To run the project locally you have to install the dependencies and start the server. So in the application's root directory run
+
 $ npm i
+
 $ npm start
